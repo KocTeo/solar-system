@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import PlanetCard from './PlanetCard';
+import MapPlanets from './MapPlanets';
 import Title from './Title';
 
 class SolarSystem extends Component {
   render() {
     return (
-      <div data-testid="solar-system">
+      <div data-testid="solar-system" className="planetario">
         <Title headline="Planetas" />
-        <PlanetCard planetName="Nome do Planeta" planetImage="imagem do planeta" />
+        <MapPlanets />
       </div>
     );
   }
