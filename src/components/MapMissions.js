@@ -5,7 +5,7 @@ import MissionsCard from './MissionCard';
 class MapMissions extends Component {
   render() {
     return (
-      <div>
+      <div className="missions-list">
         { missions.map((mission) => (<MissionsCard
           key={ mission.name }
           name={ mission.name }

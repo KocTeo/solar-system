@@ -5,7 +5,7 @@ import PlanetCard from './PlanetCard';
 class MapPlanets extends Component {
   render() {
     return (
-      <div>
+      <div className="planetario">
         { planets.map((planet) => (<PlanetCard
           planetName={ planet.name }
           planetImage={ planet.image }

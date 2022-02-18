@@ -7,8 +7,8 @@ class PlanetCard extends Component {
     const alt = `Planeta ${planetName}`;
     return (
       <div data-testid="planet-card" className="planet-card">
-        <p data-testid="planet-name">{planetName}</p>
-        <img src={ planetImage } alt={ alt } />
+        <p data-testid="planet-name" className="text">{planetName}</p>
+        <img src={ planetImage } alt={ alt } className="planet-image" />
       </div>
     );
   }

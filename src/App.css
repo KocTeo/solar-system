@@ -1,3 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+}
+
+/* stylelint-disable-next-line selector-max-specificity */
+#root {
+  background-image: url('./images/espaço.jpg');
+}
+
+.header {
+  color: aliceblue;
+  text-align: center;
+}
+
+.headline {
+  color: aliceblue;
+  margin: 20px;
+  text-align: center;
+}
+
+.text {
+  color: aliceblue;
+}
+
+.planet-card {
+  align-items: center;
+  background-color: black;
+  border: solid black 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.planet-image {
+  width: 200px;
+}
+
+.planetario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.missions-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.missions-card {
+  align-items: center;
+  background-color: black;
+  border: solid black 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  opacity: 0.8;
+  width: 220px;
 }
